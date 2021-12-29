@@ -1,0 +1,153 @@
+:root {
+  --primary-color: #051d36;
+  --text-color: #e6e8eb;
+  --border-and-highlight: #81f4e1;
+  --body-background-color: #e6e8eb;
+  --main-text-color: #191919;
+  --projects-bakground-color: #b3f8ed;
+}
+/*1200px  */
+@media (max-width: 75em) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .main {
+    width: 85%;
+  }
+
+  .heading-primary {
+    font-size: 3.4rem;
+  }
+
+  .project-para {
+    width: 100%;
+  }
+}
+/* 864px */
+@media (max-width: 54em) {
+  /* mobile navigation */
+
+  .open {
+    display: block;
+  }
+  .hide-list-item {
+    display: none;
+  }
+
+  /* mobil navigation ends */
+  .call-to-action-icons-section {
+    margin-left: 4.8rem;
+  }
+
+  .call-to-action-text::after {
+    width: 100%;
+  }
+
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+}
+
+/* 751px */
+@media (max-width: 47em) {
+  .call-to-action-text {
+    font-size: 8.6rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+  .footer p {
+    margin-bottom: 2.4rem;
+  }
+}
+
+/* 615px */
+@media (max-width: 43em) {
+  .call-to-action-text {
+    font-size: 7.4rem;
+    font-weight: 700;
+  }
+
+  .call-to-action-text::after {
+    width: 105%;
+  }
+}
+
+/* 600px */
+@media (max-width: 37.5em) {
+  .hero-container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hero-image {
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .call-to-action-container {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+  }
+
+  .call-to-action-text {
+    grid-column: 1;
+    font-size: 9.6rem;
+    font-weight: 900;
+    margin-bottom: 3.2rem;
+  }
+
+  .call-to-action-icons-section {
+    margin-left: 0;
+    /* margin-top: -2.4rem; */
+  }
+
+  .call-to-action-icon-github {
+    margin-bottom: 2.4rem;
+  }
+
+  .call-to-action-text::after {
+    width: 80%;
+    height: 80%;
+  }
+}
+/* 490px */
+@media (max-width: 31em) {
+  .call-to-action-text::after {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+/* 400px */
+@media (max-width: 25em) {
+  .hero-section {
+    padding-bottom: 0rem;
+  }
+  .project-1,
+  .project-2,
+  .project-3 {
+    padding: 1rem;
+  }
+}
+
+/* 360 */
+@media (max-width: 22.5em) {
+  .call-to-action-text {
+    font-size: 8rem;
+  }
+  .call-to-action-text::after {
+    width: 105%;
+    height: 100%;
+  }
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
