@@ -62,18 +62,21 @@ allLinks.forEach(function (link) {
     const href = link.getAttribute("href");
 
     if (href === "#") {
+      e.preventDefault();
+
       window.scrollTo({
         top: 0,
-        behaviour: "smooth",
+        behavior: "smooth",
       });
 
       removeMobileNavigation();
     }
 
     if (href !== "#" && href.startsWith("#")) {
+      e.preventDefault();
       let element = document.querySelector(href);
+
       element.scrollIntoView({ behavior: "smooth" });
-      console.log("this executes");
     }
     removeMobileNavigation();
   });
