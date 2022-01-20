@@ -92,7 +92,6 @@ year.style.fontWeight = "inherit";
 
 const observer = new IntersectionObserver(
   function (entries) {
-    console.log(entries[0].isIntersecting);
     if (entries[0].isIntersecting) {
       header.classList.remove("sticky");
     }
