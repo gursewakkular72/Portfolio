@@ -83,6 +83,7 @@
   }
 
   .hero-image {
+    height: auto;
     width: 70%;
     align-self: center;
     justify-self: center;

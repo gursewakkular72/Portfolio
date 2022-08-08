@@ -285,6 +285,7 @@ a:hover {
   font-weight: 600;
 }
 
+.project-0,
 .project-1,
 .project-2,
 .project-3 {
@@ -293,6 +294,7 @@ a:hover {
   background-color: var(--projects-bakground-color);
 
   box-shadow: 0px 0px 5px 2px hsla(0, 0%, 50%, 0.275);
+  width: 100%;
 }
 
 .link-to-instructor-website:link,

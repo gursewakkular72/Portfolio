@@ -15,19 +15,36 @@
     />
 
     <title>Gursewak Singh &ndash; portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/apple-touch-icon.png" />
     <!-- Linking Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" defer async />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+      defer
+      async
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Rubik:wght@400;600;700&display=swap"
       rel="stylesheet"
+      defer
+      async
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" defer async />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+      defer
+      async
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
+      defer
+      async
     />
 
     <!-- Linking CSS files -->
@@ -157,18 +174,27 @@
             scratch.
           </h1>
           <p class="paragraph">
-            I specialize in <span class="highlighted-text">javaScript</span>,
-            but I am also proficient with
-            <span class="highlighted-text">Java</span> and
-            <span class="highlighted-text">shell/bash</span>. The other
-            languages that I have worked with include
-            <span class="highlighted-text"> php, python, c++,</span> and
-            <span class="highlighted-text">sql</span>. Currently, I am learning
-            <span class="highlighted-text">React</span> in depth. My next goal
-            is to gain a deeper understanding of
-            <span class="highlighted-text">Vue</span>,
-            <span class="highlighted-text">AWS</span> and
-            <span class="highlighted-text">node.js</span>.
+            My skills include:
+            <span class="highlighted-text">javaScript</span>,
+            <span class="highlighted-text">HTML5</span>,
+            <span class="highlighted-text">CSS3</span>,
+            <span class="highlighted-text">react</span>,
+            <span class="highlighted-text">redux-toolkit</span>
+            <span class="highlighted-text">react-router</span>,
+            <span class="highlighted-text">next.js</span>,
+            <span class="highlighted-text">shell/bash</span>,
+            <span class="highlighted-text">c++</span>,
+            <span class="highlighted-text">java</span>, and some exposure to
+            <span class="highlighted-text">python</span>. Currently, I am
+            preparing for my first
+            <span class="highlighted-text">AWS certification</span>
+            and enhancing my
+            <span class="highlighted-text">data structure </span>and<span
+              class="highlighted-text"
+            >
+              algorithms</span
+            >
+            understanding.
           </p>
         </div>
 
@@ -191,29 +217,66 @@
             My Projects
           </h1>
         </div>
+
+        <!-- The new changes begin here -->
+        <div class="project-0 container">
+          <h2 class="secondary-heading">React+Meal</h2>
+          <p class="project-para">
+            A single page food ordering web application.
+          </p>
+
+          <ul class="project-para-list">
+            <li>
+              Built using react and uses react-router to implement single page
+              application functionalities.
+            </li>
+            <li>
+              Uses redux-toolkit to build an app-wide state for shopping cart
+              and react portal to display order success message.
+            </li>
+            <li>Uses useEffect hook to make async calls.</li>
+            <li>
+              Uses a custom hook to implement fetching of menu from firebase.
+            </li>
+            <li>Uses useReducer hook to implement checkout-form validation.</li>
+          </ul>
+        </div>
+        <div class="project-link-button container">
+          <a
+            class="link-to-project"
+            rel="noopener"
+            target="_blank"
+            href="https://reactandmeal.netlify.app/"
+          >
+            See the project &rarr;
+          </a>
+        </div>
+
+        <!-- The new changes ends here -->
+
         <div class="project-1 container">
           <h2 class="secondary-heading">Omnifood</h2>
           <p class="project-para">
             A static website, built using HTML5, CSS3 and javaScript. <br />
-
-            Please note that I made this project as a part of an online course
-            that I took. The original project belongs to
+            This is a replica of a project. The original project belongs to my
+            instructor
             <a
               class="link-to-instructor-website"
               title="link to Jonas Schmedtmann's website"
               rel="noopener"
               target="_blank"
               href="https://codingheroes.io/"
-              >Jonas Schmedtmann,</a
-            >
-            the instructor of my course. I basically created a replica of that
-            project.
+              >Jonas Schmedtmann</a
+            >.
           </p>
 
           <ul class="project-para-list">
-            <li>HTML-5, CSS3, JavaScript</li>
-            <li>Flexbox and grid models</li>
-            <li>Fully responsive design</li>
+            <li>HTML-5, CSS3, JavaScript.</li>
+            <li>Flexbox and grid models.</li>
+            <li>
+              Fully responsive design built using break points for various
+              screen sizes and responsive units.
+            </li>
           </ul>
         </div>
         <div class="project-link-button container">
@@ -231,33 +294,31 @@
           <h2 class="secondary-heading">Forkify App</h2>
 
           <p class="project-para">
-            A dynamic, but static web application.
+            A dynamic web application, built using javaScript.
             <br />
-            Please note that I made this project as a part of an online course
-            that I took. The original project belongs to
+            This is a replica of a project. The original project belongs to my
+            instructor
             <a
               class="link-to-instructor-website"
               title="link to Jonas Schmedtmann's website"
               rel="noopener"
               target="_blank"
               href="https://codingheroes.io/"
-              >Jonas Schmedtmann,</a
-            >
-            the instructor of my course. I basically created a replica of that
-            project.
+              >Jonas Schmedtmann</a
+            >.
           </p>
           <ul class="project-para-list">
             <li>
-              Object-oriented paradigm of JavaScript, the MVC architecture,
-              JavaScript modules, npm packages such as fractional.
+              Uses object-oriented paradigm of JavaScript, the MVC architecture,
+              JavaScript modules, and npm packages such as fractional.
             </li>
             <li>
               Uses API to retrieve recipes from a server, uses promises and
               async functions to carry out asynchronous operations.
             </li>
             <li>
-              Arrays, objects, array methods, event listeners, and DOM methods
-              and properties.
+              Uses arrays, objects, array methods, event listeners, and DOM
+              methods and properties.
             </li>
           </ul>
         </div>
@@ -277,8 +338,7 @@
           <h2 class="secondary-heading">Bankist</h2>
 
           <p class="project-para">
-            A minimalistic dynamic, but static web application, developed using
-            JavaScript. <br />
+            A minimalistic dynamic website developed using JavaScript. <br />
             <strong
               ><em
                 >To login to the project, use the first user name: "js" and the
@@ -287,24 +347,22 @@
               ></strong
             >
             <br />
-            Please note that I made this project as a part of an online course
-            that I took. The original project belongs to
+            This is a replica of a project. The original project belongs to my
+            instructor
             <a
               class="link-to-instructor-website"
               title="link to Jonas Schmedtmann's website"
               rel="noopener"
               target="_blank"
               href="https://codingheroes.io/"
-              >Jonas Schmedtmann,</a
-            >
-            the instructor of my course. I basically created a replica of that
-            project.
+              >Jonas Schmedtmann</a
+            >.
           </p>
 
           <ul class="project-para-list">
-            <li>JavaScript Objects and arrays to store the data locally.</li>
-            <li>Functional paradigm of JavaScript</li>
-            <li>Event listeners, DOM methods and properties.</li>
+            <li>Uses javaScript objects and arrays to store data locally.</li>
+            <li>Uses functional paradigm of javaScript</li>
+            <li>Uses event listeners and DOM methods and properties.</li>
           </ul>
         </div>
 
